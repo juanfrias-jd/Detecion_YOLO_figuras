@@ -1,0 +1,10 @@
+# Configuración del dataset para YOLOv8 (Ultralytics)
+# Rutas relativas a la carpeta donde se ejecuta train.py
+
+path: data_merged
+train: train/images
+val: val/images
+test: test/images
+
+nc: 5
+names: ["circulo", "cuadrado", "triangulo", "hexagono", "estrella"]
